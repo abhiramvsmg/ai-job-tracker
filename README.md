@@ -1,29 +1,33 @@
-# AI Job Tracker 🚀
+# AI Job Tracker - Backend
 
-A backend-focused project that helps users track job applications and analyze job descriptions using AI.  
-Built with Node.js, Express, MongoDB, and OpenAI API following clean REST architecture.
+[![Node.js](https://img.shields.io/badge/Node.js-v18-green)](https://nodejs.org/)  
+[![Express](https://img.shields.io/badge/Express-v4.18-blue)](https://expressjs.com/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-v7.5-brightgreen)](https://www.mongodb.com/)  
 
----
-
-## 🔧 Tech Stack
-
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **AI Integration:** OpenAI API
-- **Tools:** Git, GitHub, Postman, VS Code
-- **Environment Management:** dotenv
+This is the **backend server** for the AI Job Tracker project.  
+It uses **Node.js, Express, and MongoDB (via Mongoose)** to manage data for the job tracking system.
 
 ---
 
-## ✨ Features
-
-- Add and manage job applications
-- Store job details securely in MongoDB
-- Analyze job descriptions using AI
-- RESTful API architecture
-- Clean project structure with separation of concerns
+## **Features**
+- Connects to **MongoDB Atlas** using Mongoose
+- Basic server setup with **Express**
+- Configurable via `.env` for database connection and server port
+- Ready for creating API routes for jobs, users, etc.
 
 ---
 
-## 📂 Project Structure
+## **Prerequisites**
+- Node.js installed (v16+ recommended)
+- npm installed
+- MongoDB Atlas account with a database user
 
+---
+
+## **Setup & Installation**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/abhiramvsmg/ai-job-tracker.git
+cd ai-job-tracker/server
